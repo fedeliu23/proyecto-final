@@ -1,0 +1,62 @@
+/* Inicio header */
+
+
+    .logo-arbet {
+    width: 150px;
+    height: 150px;
+    border-radius: 600px;
+    display: flex;
+    justify-content: start;
+    }
+
+header {
+    margin: bottom 50px;
+    padding: top;
+    background-image: url(../imagenes/herramientas.png);
+    background-size: 20% 100%;
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+.botones {
+    color: map-get($color, $primary-color);
+    text-decoration: none;
+}
+
+.btn {
+    &.btn-cta {
+        @include btn($primary-color, $secondary-color, 'true');
+        &:hover {
+            @include btn($secondary-color, $terciary-color, 'true');
+            box-shadow: $box-shadow;
+        }
+    }
+    &:hover {
+        @include btn($terciary-color, $secondary-color, 'true');
+        box-shadow: $box-shadow;
+    }
+}
+
+ul {
+    @extend %reset-pm;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    li {
+        .botones {
+            @include btn($background-color: $terciary-color, $color: $font-color, $bold: 'true');
+
+            &:hover {
+                @include btn($secondary-color,$terciary-color, 'false');
+                box-shadow: $box-shadow;
+            }
+        }
+    }
+}
+
+/* fin header */

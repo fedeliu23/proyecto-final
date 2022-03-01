@@ -1,0 +1,40 @@
+/* Inicio footer */
+footer {
+    background-color: #B08968;
+    opacity: 97%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0 10px 10px;
+    .ul-footer {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-self:flex-end;
+        li {
+            a {
+                .redes {
+                    margin: 0 10px;
+                    width: 50px;
+                    height: 50px;
+                    align-self:flex-end;
+                    
+               } 
+            }
+        }
+    }
+}
+
+.arbet-logo {
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 0 0;;
+    border-radius: 600px;
+    display: flex;
+    justify-content: start;
+}
+
+                
+/* Fin footer */
+  

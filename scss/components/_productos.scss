@@ -1,0 +1,27 @@
+/* Inicio Productos */
+
+
+
+
+
+.muebles {
+    @include medidas(340px, 300px, none);
+}
+
+
+.card {
+    transition: all 1s;
+    &:hover {
+        transform: scale(1.1,1.1);
+        z-index: 100;
+    }
+}
+
+.productos {
+    padding: 40px;
+}
+
+
+
+
+/* Fin Productos */

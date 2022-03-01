@@ -1,0 +1,33 @@
+%reset-pm {
+    padding: 0;
+    margin: 5px;
+}
+
+%anuncio {
+    background-color: #B08968;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 100px 5px;
+    border-radius: 80px;
+}
+
+%titulo-product {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+%formulario {
+        color: black;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif, solid;
+        padding: 20px 0px;
+}
